@@ -1,0 +1,200 @@
+<!Doctype hmtl>
+<html lang="es">
+<meta charset="utf-8">
+<head>
+	<style type="text/css">
+p.imagen:hover {filter: blur(5px);}
+
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+body {
+  background: #f6f6f6;
+  font-size:16px;
+  line-height: 20px;
+  color: #077039;
+  word-wrap:break-word !important;
+  font-family: 'Open Sans', sans-serif;
+  }
+
+a {
+  color: #FFF;
+}
+
+
+#container {
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+}
+
+nav {
+  margin: 30px auto;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 20px 3px #162433;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    position: relative;
+    text-align: center;
+}
+  
+nav ul li {
+  display:inline-block;
+  background-color: #077039;
+  }
+
+nav a {
+  display:block;
+  padding:0 20px; 
+  color:#FFF;
+  font-size:16px;
+  line-height: 60px;
+  text-decoration:none;
+}
+
+nav a:hover { 
+  background-color: #000000; 
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+  display: none;
+  position: absolute; 
+  top: 60px; /* the height of the main nav */
+}
+  
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+  display:inherit;
+}
+  
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+  width:170px;
+  float:none;
+  display:list-item;
+  position: relative;
+}
+
+/* Second, Third and more Tiers */
+nav ul ul ul li {
+  position: relative;
+  top:-60px; 
+  left:170px;
+}
+
+  
+i {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4px;
+    margin: -7px 0 0px 7px;
+    vertical-align: middle;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}	
+
+	</style>
+<title> Laboratorio </title>
+</head>
+
+<body bgcolor="ffffff" text="#077039" >
+    <p class="imagen">
+        <p class="contenedor">
+<div align="center">
+	<img src="C:\Users\Yeray Paredes\Downloads\98060d_d3f0d8f7f0df4bcaadb55b0fb2aed1cb~mv2.png" width="500" height="150">
+</div>
+<div id="container">
+    <nav>
+        <ul>
+            <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/inicio.html">Inicio</a></li>
+            <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Ast/Nosotros.html">Nosotros</a></li>
+            <li><a href="#">Servicios<i class="down"></i></a>
+            <!-- Primer Menu Desplegable -->
+            <ul>
+                <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Ast/emergencias.html">Emergencia</a></li>
+                <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Ast/Laboratorio.html">Laboratiorio</a></li>
+                <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Ast/hospitalizacion.html">Hospitalizacion</a></li>
+                 <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Ast/cuidadosintensivos.html">Cuidados Intensivos</a></li>
+                  <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Ast/cirugias.html">Cirugias</a></li>
+                   <li><a href="#">Maternidad</a></li>
+
+            </ul>        
+            </li>
+
+            <li><a href="#">Directorio medico <i class="down"></i></a>
+             <!-- Primer Menu Desplegable -->
+            <ul>
+                <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/ortopedia.html">Ortopedia</a></li>
+                <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/pediatria.html">Pediatria</a></li>
+                <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/Oftalmologia.html">Oftalmologia</a></li>
+                  <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/cardiologia.html">Cardiologia</a></li>
+                  <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/psicologia.html">Psicologia</a></li>
+                  <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/odontologia.html">Odontologia</a></li>
+                  <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/dermatologia.html">Dermatologia</a></li>
+                  <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/Neurologia.html">Neurologia</a></li>
+                  <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/anestesiologia.html">Anestesiologia</a></li>
+                  <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/infectologia.html">Infectologia</a></li>
+                  <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/nutriologia.html">Nutriologia</a></li>
+                  <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/ginecologi.html">Ginecologia</a></li>
+                        </ul>
+                </ul>
+                    </li>
+                </ul>
+                </li>
+            </ul>
+            </li>
+           
+        </ul>
+    </nav>
+ 
+
+</div>
+
+<div align="center">
+	<br>
+	<br>
+<h1>  <strong>  LABORATORIO  </strong>  </h1>
+	<p class="imagen">
+     <img src="C:\Users\Yeray Paredes\Documents\Ast\Laboratorio!.png" width="990" height="700"> </p>
+	</div>
+	
+	<div align="center">
+	<img src="C:\Users\Yeray Paredes\Documents\Ast\Emergencia (2).png" width="1380" height="800">
+</div>
+<br> 
+<br> 
+<br>
+<br> 
+<h3> <center> Siguenos en nuestras Redes Sociales!</center> </h3>
+<div align="center">
+ <a href="https://www.facebook.com/HospitalBendana/"> <img src="C:\Users\Yeray Paredes\Documents\Ast\2023_Facebook_icon.svg (1).png" width="80" height="80">
+    <a href="https://api.whatsapp.com/send?phone=50432601391&text=%C2%A1Hola!%20Gracias%20por%20tu%20preferencia,%20en%20un%20momento%20nos%20ponemos%20en%20contacto%20contigo.%F0%9F%92%9A%20Tambi%C3%A9n%20puedes%20llamarnos%20a%20nuestros%20tel%C3%A9fonos%20de%20servicio%20al%20cliente:%20%20%20%F0%9F%93%B2%202516-2900,%202516-2980,%202516-298%20Ser%C3%A1%20un%20gusto%20atenderte."> <img src="C:\Users\Yeray Paredes\Documents\Ast\WhatsApp.svg.png" width="95" height="95">
+    <a href="https://www.instagram.com/hospitalbendana/"> <img src="C:\Users\Yeray Paredes\Documents\Ast\Instagram_logo_2022.svg.png" width="80" height="80">

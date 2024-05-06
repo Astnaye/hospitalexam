@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title> Hospital </title>
+<body> 
+  <div align="center">
+  <img src="C:\Users\Yeray Paredes\Downloads\98060d_d3f0d8f7f0df4bcaadb55b0fb2aed1cb~mv2.png" width="500" height="150">
+</div>
+<style type="text/css">
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+body {
+  background: #f6f6f6;
+  font-size:16px;
+  line-height: 20px;
+  color: #fffacd;
+  word-wrap:break-word !important;
+  font-family: 'Open Sans', sans-serif;
+  }
+
+a {
+  color: #FFF;
+}
+
+
+#container {
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+}
+
+nav {
+  margin: 30px auto;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 20px 3px #162433;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    position: relative;
+    text-align: center;
+}
+  
+nav ul li {
+  display:inline-block;
+  background-color: #077039;
+  }
+
+nav a {
+  display:block;
+  padding:0 20px; 
+  color:#FFF;
+  font-size:16px;
+  line-height: 60px;
+  text-decoration:none;
+}
+
+nav a:hover { 
+  background-color: #000000; 
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+  display: none;
+  position: absolute; 
+  top: 60px; /* the height of the main nav */
+}
+  
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+  display:inherit;
+}
+  
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+  width:170px;
+  float:none;
+  display:list-item;
+  position: relative;
+}
+
+/* Second, Third and more Tiers */
+nav ul ul ul li {
+  position: relative;
+  top:-60px; 
+  left:170px;
+}
+
+  
+i {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4px;
+    margin: -7px 0 0px 7px;
+    vertical-align: middle;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+} 
+</style>
+<div id="container">
+    <nav>
+        <ul>
+            <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/inicio.html">Inicio</a></li>
+            <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Ast/Nosotros.html">Nosotros</a></li>
+            <li><a href="#">Servicios<i class="down"></i></a>
+            <!-- Primer Menu Desplegable -->
+            <ul>
+                <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Ast/emergencias.html">Emergencia</a></li>
+                <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Ast/Laboratorio.html">Laboratiorio</a></li>
+                <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Ast/hospitalizacion.html">Hospitalizacion</a></li>
+                 <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Ast/cuidadosintensivos.html">Cuidados Intensivos</a></li>
+                  <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Ast/cirugias.html">Cirugias</a></li>
+                   <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Ast/maternidad.html">Maternidad</a></li>
+            </ul>        
+            </li>
+
+            <li><a href="#">Directorio medico <i class="down"></i></a>
+             <!-- Primer Menu Desplegable -->
+            <ul>
+                <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/ortopedia.html">Ortopedia</a></li>
+                <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/pediatria.html">Pediatria</a></li>
+                <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/Oftalmologia.html">Oftalmologia</a></li>
+                  <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/cardiologia.html">Cardiologia</a></li>
+                  <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/psicologia.html">Psicologia</a></li>
+                  <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/odontologia.html">Odontologia</a></li>
+                  <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/dermatologia.html">Dermatologia</a></li>
+                  <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/Neurologia.html">Neurologia</a></li>
+                  <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/anestesiologia.html">Anestesiologia</a></li>
+                  <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/infectologia.html">Infectologia</a></li>
+                  <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/nutriologia.html">Nutriologia</a></li>
+                  <li><a href="file:///C:/Users/Yeray%20Paredes/Documents/Dise%C3%B1o/ginecologi.html">Ginecologia</a></li>
+                        </ul>
+
+                    </li>
+                </ul>
+                </li>
+            </ul>
+            </li>
+           
+        </ul>
+    </nav>
+ 
+<p><a target="_blank" href="http://bcndos.com/5-mejores-menus-desplegables-gratis-css/">VER MAS</a></p>
+  </style>
+  <img src="C:\Users\Yeray Paredes\Downloads\banner.PNG" alt="" style="width:1400px;height:647px;object-fit:cover" width="1400" height="647" >
+  <br>
+  <br>
+  <img src="C:\Users\Yeray Paredes\Downloads\Fantasia Menu (16).png" height="100" width="1400">
+  <br>
+  <br>
+</div>
+<a href="file:///C:/Users/Yeray%20Paredes/Documents/Ast/hospital.html"><img src="C:\Users\Yeray Paredes\Downloads\Fantasia Menu (2).jpg" height="180" width="250"></a>
+  <div align="center"><font color="#223c77"><h1> Any Chevez de Sagastume</font></h1></div>
+<table cellspacing="0" cellpadding="0" border="0">
+    <tr>
+  <th scope="col"><img src="C:\Users\Yeray Paredes\Downloads\gine4.png" width="280" height="450"></th>
+  <th scope="col"> <div alin="left"><font color="black"><font color="#057038">Especialidad:</font> Ginecologia<br>
+    <br>
+                  <div alin="left"><font color="#057038">Asistente:</font> Cristhian Muñoz<br></div>
+                  <br>
+                  <div alin="left"><font color="#057038">Teléfono:</font>  (504) 9986-8728<br></div>
+                  <br>
+                  <div alin="left"><font color="#057038">Correo:</font> AnyDr@yahoo.com<br></div>
+                  <br>
+                  <div alin="left"><font color="#057038">Idiomas:</font> Español, Ingles.<br></div>
+                </font>
+</div>
+</th>
+</font>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</thead>
+</html>
